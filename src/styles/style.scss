@@ -187,9 +187,11 @@ body {
     font-size: 26px;
     line-height: 30px;
 }
-.card-title span{
+
+.card-title span {
     color: #D67E35;
 }
+
 .card-desc {
     display: flex;
     justify-content: center;
@@ -199,20 +201,25 @@ body {
     line-height: 30px;
     color: #656363;
 }
+
 // history
-.history{
+.history {
     margin-top: 166px;
+    padding-bottom: 122px;
 }
-.history-title{
+
+.history-title {
     font-family: 'Tinos';
     font-size: 54px;
     text-align: center;
     width: 444px;
-    span{
+
+    span {
         color: #FF7400;
     }
 }
-.history-desc{
+
+.history-desc {
     color: #656363;
     font-family: 'Open Sans';
     font-size: 16px;
@@ -220,25 +227,67 @@ body {
     text-align: center;
     margin: 21px 0 39px;
 }
-.history-number{
+
+.history-number {
     display: flex;
     width: 444px;
     justify-content: center;
-    .number-item{
+
+    .number-item {
         margin-right: 60px;
         text-align: center;
         color: #BC9060;
         font-size: 40px;
-        span{
+
+        span {
             display: block;
             color: #000;
             font-size: 20px;
         }
     }
 }
-.history-holder{
+
+.history-holder {
     display: flex;
-    .history-info{
+
+    .history-info {
         margin-right: 125px;
+    }
+}
+
+// order
+.black-block {
+    background-image: url(/src/img/delicious-meal-bg.jpg);
+
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        // padding: 80px 0;
+
+        .left-title {
+            color: #D67E34;
+            font-size: 52px;
+            font-family: 'Tinos';
+            font-weight: 400;
+            margin-bottom: 20px;
+        }
+
+        .left-text {
+            font-weight: 700;
+            font-size: 24px;
+            color: #fff;
+        }
+        .btn{
+            width: 157px;
+            height: 47px;
+            text-decoration: none;
+            background-color: #FF7400;
+            color: #fff;
+            padding: 14px 18px;
+            font-weight: 500;
+            font-size: 14px;
+            border: none;
+        }
     }
 }

@@ -13,6 +13,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Tinos:wght@400;700&display=swap" rel="stylesheet">
+    <!-- aos -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- style -->
     <link rel="stylesheet" href="/src/styles/style.scss">
     <title>Restaurant</title>
@@ -22,7 +24,7 @@
     <!-- header -->
     <section class="header">
         <div class="container">
-            <div class="header-line">
+            <div class="header-line" data-aos="fade-left">
                 <div class="logo">
                     <img src="/src/img/LOGO.png" alt="">
                 </div>
@@ -53,7 +55,7 @@
                 </div>
             </div>
             <!-- header down -->
-            <div class="header-down">
+            <div class="header-down" data-aos="fade-right">
                 <div class="title">Добро пожаловать в
                     <div class="subtitle">Наш ресторан</div>
                     <div class="suptitle">
@@ -69,8 +71,8 @@
     </section>
     <div class="cards">
         <div class="container">
-            <div class="cards-holder">
-                <div class="card">
+            <div class="cards-holder" >
+                <div class="card" data-aos="fade-up-right">
                     <div class="card-image">
                         <img src="/src/img/Mask Group.png" alt="">
                     </div>
@@ -78,7 +80,7 @@
                     <div class="card-desc">В нашем заведении царит магическая атмосфера
                         наполненная вкусными ароматами</div>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="fade-up-right" data-aos-duration="1000">
                     <div class="card-image">
                         <img src="/src/img/Mask Group.png" alt="">
                     </div>
@@ -87,7 +89,7 @@
                         Еды - отменное!
                     </div>
                 </div>
-                <div class="card">
+                <div class="card" data-aos="fade-up-right" data-aos-duration="2000">
                     <div class="card-image">
                         <img src="/src/img/Mask Group.png" alt="">
                     </div>
@@ -104,7 +106,7 @@
     <div class="history">
         <div class="container">
             <div class="history-holder">
-                <div class="history-info">
+                <div class="history-info" data-aos="fade-right" >
                     <div class="history-title">Наша <span> История </span></div>
                     <div class="history-desc">Как и у любого другого самобытного места, у нас есть своя, особая история.
                         Идея
@@ -126,12 +128,34 @@
                         </div>
                     </div>
                 </div>
-                <div class="history-img">
+                <div class="history-img" data-aos="fade-left">
                     <img src="/src/img/3img.jpg" alt="">
                 </div>
             </div>
         </div>
     </div>
+    <!-- order -->
+    <div class="black-block">
+        <div class="container">
+            <div class="wrapper">
+                <div class="left">
+                    <div class="left-title">Отпразднуйте в одном из 
+                        самых лучших ресторанов.</div>
+                        <div class="left-text">Только в этом месяце бизнес-ланч от 250 ₽</div>
+                </div>
+            <div class="right">
+                <button class="btn">ЗАКАЗ СТОЛИКА</button>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        once:"true"
+      });
+    </script>
 </body>
 
 </html>
