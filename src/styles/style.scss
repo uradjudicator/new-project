@@ -263,11 +263,11 @@ body {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        // padding: 80px 0;
+        padding: 80px 0;
 
         .left-title {
             color: #D67E34;
-            font-size: 52px;
+            font-size: 40px;
             font-family: 'Tinos';
             font-weight: 400;
             margin-bottom: 20px;
@@ -275,7 +275,7 @@ body {
 
         .left-text {
             font-weight: 700;
-            font-size: 24px;
+            font-size: 18px;
             color: #fff;
         }
         .btn{
@@ -285,9 +285,14 @@ body {
             background-color: #FF7400;
             color: #fff;
             padding: 14px 18px;
-            font-weight: 500;
+            font-weight: 600;
             font-size: 14px;
             border: none;
+            cursor: pointer;
+            transition: 0.4s;
+            &:hover{
+                color: #000;
+            }
         }
     }
 }
