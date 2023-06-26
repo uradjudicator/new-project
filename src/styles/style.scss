@@ -278,7 +278,8 @@ body {
             font-size: 18px;
             color: #fff;
         }
-        .btn{
+
+        .btn {
             width: 157px;
             height: 47px;
             text-decoration: none;
@@ -290,8 +291,44 @@ body {
             border: none;
             cursor: pointer;
             transition: 0.4s;
-            &:hover{
+
+            &:hover {
                 color: #000;
+            }
+        }
+    }
+}
+
+// dishes
+.dishes {
+    margin: 0;
+    padding: 130px 0 0 0;
+
+    .dishes-title {
+        font-size: 54px;
+        font-family: 'Tinos';
+        text-align: center;
+
+        span {
+            color: #D67E34;
+        }
+    }
+
+    .wrapper {
+        display: flex;
+        margin: 140px 0 0 0;
+        
+        .burger {
+            .hamburgers {
+                margin: 0 2px 27px 22px;
+                display: flex;
+                .price{
+                    display: flex;
+                    align-items: center;
+                    margin-left: 22px;
+                    font-size: 26px;
+                    font-family: 'Tinos';
+                }
             }
         }
     }
