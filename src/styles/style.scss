@@ -349,45 +349,46 @@ body {
         text-align: center;
         margin-bottom: 138px;
     }
-.menu-items{
-    display: flex;
-    gap: 20px;
 
-    .menu-card {
-        background-color: #FFF;
-        text-align: center;
-        width: 33%;
-        padding: 80px 0 29px;
+    .menu-items {
+        display: flex;
+        gap: 20px;
 
-        .menu-text {
-            font-size: 26px;
-            font-family: 'Tinos';
-        }
+        .menu-card {
+            background-color: #FFF;
+            text-align: center;
+            width: 33%;
+            padding: 80px 0 29px;
 
-        .menu-subtext {
-            font-size: 16px;
-            font-family: 'Open Sans';
-            margin: 16px 0 17px;
-        }
+            .menu-text {
+                font-size: 26px;
+                font-family: 'Tinos';
+            }
 
-        .menu-button {
-            background: #D67E34;
-            padding: 14px 68px;
-            width: 220px;
-            margin: 0 auto;
-            box-shadow: 5px 5px 10px 0px #00000040;
-
-            a {
-                text-decoration: none;
-                color: #fff;
+            .menu-subtext {
                 font-size: 16px;
                 font-family: 'Open Sans';
-                font-weight: 700;
+                margin: 16px 0 17px;
+            }
 
+            .menu-button {
+                background: #D67E34;
+                padding: 14px 68px;
+                width: 220px;
+                margin: 0 auto;
+                box-shadow: 5px 5px 10px 0px #00000040;
+
+                a {
+                    text-decoration: none;
+                    color: #fff;
+                    font-size: 16px;
+                    font-family: 'Open Sans';
+                    font-weight: 700;
+
+                }
             }
         }
     }
-}
 }
 
 .menu-image {
@@ -399,7 +400,8 @@ body {
             bottom: 0;
             right: 57px;
         }
-        .price-number{
+
+        .price-number {
             position: absolute;
             bottom: 34px;
             right: 88px;
@@ -408,5 +410,30 @@ body {
             font-family: 'Cookie';
             color: #fff;
         }
+    }
+}
+
+// description
+.description {
+    padding: 104px 0 140px;
+    text-align: center;
+    background: #E5E5E5;
+
+    .comment {
+        font-size: 20px;
+        font-family: 'Open Sans';
+        font-style: italic;
+        margin-bottom: 20px;
+    }
+
+    .writer {
+        font-weight: 600;
+        font-family: 'Open Sans';
+        margin: 17px 0 9px;
+    }
+
+    .writer-name {
+        font-size: 20px;
+        font-family: 'Open Sans';
     }
 }
