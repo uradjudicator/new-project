@@ -302,7 +302,7 @@ body {
 // dishes
 .dishes {
     margin: 0;
-    padding: 130px 0 0 0;
+    padding: 130px 0 150px 0;
 
     .dishes-title {
         font-size: 54px;
@@ -317,18 +317,65 @@ body {
     .wrapper {
         display: flex;
         margin: 140px 0 0 0;
-        
+
         .burger {
             .hamburgers {
                 margin: 0 2px 27px 22px;
                 display: flex;
-                .price{
+
+                .price {
                     display: flex;
                     align-items: center;
                     margin-left: 22px;
                     font-size: 26px;
                     font-family: 'Tinos';
                 }
+            }
+        }
+    }
+}
+
+.menu {
+    background-image: url(/src/img/bar.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 98px 26px;
+
+    .menu-title {
+        color: #FFF;
+        text-shadow: 5px 5px 4px 0px rgba(0, 0, 0, 0.25);
+        font-size: 54px;
+        font-family: 'Tinos';
+        text-align: center;
+        margin-bottom: 138px;
+    }
+
+    .menu-card {
+        background-color: #FFF;
+        text-align: center;
+        width: 33%;
+        padding-top: 80px;
+
+        .menu-text {
+            font-size: 26px;
+            font-family: 'Tinos';
+        }
+
+        .menu-subtext {
+            font-size: 16px;
+            font-family: 'Open Sans';
+            margin: 16px 0 17px;
+        }
+        .menu-button{
+            background: #D67E34;
+            padding: 14px 68px;
+            width: 220px;
+            margin: 0 auto;
+            a{
+                text-decoration: none;
+                color: #fff;
+                font-size: 16px;
+                font-family: 'Open Sans';
             }
         }
     }
