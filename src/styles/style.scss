@@ -349,12 +349,15 @@ body {
         text-align: center;
         margin-bottom: 138px;
     }
+.menu-items{
+    display: flex;
+    gap: 20px;
 
     .menu-card {
         background-color: #FFF;
         text-align: center;
         width: 33%;
-        padding-top: 80px;
+        padding: 80px 0 29px;
 
         .menu-text {
             font-size: 26px;
@@ -366,17 +369,44 @@ body {
             font-family: 'Open Sans';
             margin: 16px 0 17px;
         }
-        .menu-button{
+
+        .menu-button {
             background: #D67E34;
             padding: 14px 68px;
             width: 220px;
             margin: 0 auto;
-            a{
+            box-shadow: 5px 5px 10px 0px #00000040;
+
+            a {
                 text-decoration: none;
                 color: #fff;
                 font-size: 16px;
                 font-family: 'Open Sans';
+                font-weight: 700;
+
             }
+        }
+    }
+}
+}
+
+.menu-image {
+    position: relative;
+
+    .price {
+        .price-image {
+            position: absolute;
+            bottom: 0;
+            right: 57px;
+        }
+        .price-number{
+            position: absolute;
+            bottom: 34px;
+            right: 88px;
+            font-size: 28px;
+            font-weight: 400;
+            font-family: 'Cookie';
+            color: #fff;
         }
     }
 }
